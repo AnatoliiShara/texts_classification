@@ -1,5 +1,5 @@
 import joblib
-from utils import label_to_sentiment
+from src.utils import label_to_sentiment
 
 def load_model():
     model = joblib.load("models/best_classifier.joblib")
